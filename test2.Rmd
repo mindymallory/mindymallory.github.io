@@ -1,5 +1,6 @@
 ---
-title: "Untitled"
+layout: page
+title: "Test"
 author: "Mindy Mallory"
 date: "November 23, 2015"
 output: html_document
