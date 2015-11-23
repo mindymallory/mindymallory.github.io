@@ -2,7 +2,7 @@
 title: "Untitled"
 author: "Mindy Mallory"
 date: "November 23, 2015"
-output: md_document
+output: html_document
 ---
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -15,7 +15,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r, echo=FALSE}
+```{r, echo=TRUE}
 plot(cars)
 ```
 
