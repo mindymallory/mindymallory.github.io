@@ -16,4 +16,4 @@ twitter_username: ace_prof
 github_username:  mindymallory
 
 # Build settings
-markdown: kramdown
+markdown: rmarkdown
