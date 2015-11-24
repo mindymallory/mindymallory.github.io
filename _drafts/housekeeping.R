@@ -1,7 +1,7 @@
 ###############################################################################################################
 # This script takes the .Rmd document and converts it to a .md document 
 # that can be used by Jekyll/Github Pages to build a website. Change 
-# filename to the desired one in the '~/_drafts' folder. 
+# 'filename =' to the name of the desired post in the '~/_drafts' folder. 
 # Modified from Nicole White's blog post on blogging with rmarkdown and Jekyll: 
 # http://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html
 #################################
@@ -20,19 +20,16 @@ dir = paste0("_posts/", Sys.Date(), "-")
 output = paste0(dir, sub('.Rmd', '.md', filename))
 knit(paste0("_drafts/",filename), output)
 
-# Now run on the cmd line
+# If I want to test locally, run on the cmd line
 # $ cd C:\Users\mallorym\Documents\Github\mindymallory.github.io
-# if I want to test locally. Otherwise push to github and see it live. 
+# $ jekyll serve
+# View at http://localhost:4000/
+# Otherwise push to github and see it live. 
 
 ###############################################################################################################
-# This script authenticates into my twitter account and posts the title and link of the most recent blog post (or it will soon).  
-
-# Github, for most recent version
-#     install.packages(c("devtools", "rjson", "bit64", "httr"))
-#     devtools::install_github("geoffjentry/twitteR")
-#     library(devtools)
-#     install_github("geoffjentry/twitteR")
-#     library(twitteR)
+# This script authenticates into my twitter account and posts the title and 
+# link of the most recent blog post (or it will soon).  
+##################################
 
 # CRAN
 install.packages("twitteR", repos="http://cran.rstudio.com/", dependencies=TRUE)
@@ -48,3 +45,5 @@ setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 tweettxt <- "Testing out a script"
 tweettxt <- "FYI - It worked"
 tweet(tweettxt)
+
+rm(list=ls())  # This line removes the credentials from the workspace. In case .Rproj information gets pushed to Github by accident.  
