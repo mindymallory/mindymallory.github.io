@@ -1,6 +1,7 @@
 ﻿---
 layout: page
 Title: "Publications"
+permalink: /Publications/
 ---
 
 Articles in Peer-Reviewed Journals
