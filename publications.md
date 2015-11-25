@@ -1,6 +1,7 @@
 ﻿---
 layout: page
-Title: "Publications"
+Title: Publications
+comments: False
 permalink: /Publications/
 ---
 
