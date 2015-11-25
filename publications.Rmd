@@ -1,0 +1,24 @@
+---
+title: "Publications"
+date: "Updated November 25, 2015"
+output: md_document
+bibliography: mypubs.bib
+csl: year-ajae.txt
+nocite: |
+  @trujillo2012volatility, @ando2012optimal, @mallory2012market, @mallory2011crop, @du2009welfare, @yu2014exchange, @mallory2012food,
+  @irwin2011could, @sherrick2013s, @mallory2012testing, @mallory2011alternative, @mallory2014perils, @ando2012reply, @paulson2013determinants,
+  @yu2015optimal, @mallory2015cost, @mallory2011coordination
+---
+
+
+
+
+
+
+# Articles in Peer-Reviewed Journals
+\noindent
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+

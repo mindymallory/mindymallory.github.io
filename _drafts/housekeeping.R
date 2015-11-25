@@ -1,4 +1,5 @@
 ###############################################################################################################
+# Blog Post .Rmd to .md
 # This script takes the .Rmd document and converts it to a .md document 
 # that can be used by Jekyll/Github Pages to build a website. Change 
 # 'filename =' to the name of the desired post in the '~/_drafts' folder. 
@@ -47,3 +48,5 @@ tweettxt <- "FYI - It worked"
 tweet(tweettxt)
 
 rm(list=ls())  # This line removes the credentials from the workspace. In case .Rproj information gets pushed to Github by accident.  
+
+

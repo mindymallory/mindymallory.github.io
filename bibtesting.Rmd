@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "Mindy Mallory"
+date: "November 25, 2015"
+output: pdf_document
+bibliography: mypubs.bib
+csl: year-ajae.txt
+---
+
+[@trujillo2012volatility] , [@ando2012optimal], [@mallory2012market], [@mallory2011crop]
+
+ 
+
+
+# References
+\noindent
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+
