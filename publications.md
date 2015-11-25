@@ -1,10 +1,11 @@
 ---
 layout: page
 Title: Publications
+permalink: /publications/
 ---
 
 Articles in Peer-Reviewed Journals
-==================================
+
 
 Du, X., D.J. Hayes, and M.L. Mallory. 2009. “A welfare analysis of the
 u.S. ethanol subsidy.” *Applied Economic Perspectives and Policy*
