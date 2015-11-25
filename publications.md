@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 Title: Publications
 comments: False
