@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "Publications"
-date: "Updated November 25, 2015"
-output: md_document
 bibliography: mypubs.bib
 csl: year-ajae.txt
 nocite: |
@@ -42,14 +40,15 @@ To generate pdf:
 \setlength{\parskip}{8pt}
 
 
-
+<!--
 ```{r, include=FALSE}
   # For .md 
   # This adds the file to the root so Jekyll will include it in the site build
    file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
                to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
 ```
-<!--
+
+
 
 ```{r, include=FALSE}
   # For .pdf 

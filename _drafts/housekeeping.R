@@ -49,4 +49,6 @@ tweet(tweettxt)
 
 rm(list=ls())  # This line removes the credentials from the workspace. In case .Rproj information gets pushed to Github by accident.  
 
+###############################################################################################################
+
 
