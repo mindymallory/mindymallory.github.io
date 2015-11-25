@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Publications"
 date: "Updated November 25, 2015"
 output: md_document

@@ -1,3 +1,8 @@
+﻿---
+layout: page
+Title: "Publications"
+---
+
 Articles in Peer-Reviewed Journals
 ==================================
 
