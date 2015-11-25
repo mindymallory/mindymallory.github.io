@@ -25,8 +25,8 @@ nocite: |
 
 ```{r, include=FALSE}
    # add this chunk to end of mycode.rmd
-   file.rename(from="_drafts/publications.md", 
-               to="publications.md")
+   file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
+               to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
 ```
 
 
