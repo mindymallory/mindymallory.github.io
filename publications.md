@@ -2,7 +2,6 @@
 layout: page
 Title: Publications
 comments: False
-permalink: /Publications/
 ---
 
 Articles in Peer-Reviewed Journals
