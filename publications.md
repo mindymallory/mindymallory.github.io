@@ -1,7 +1,6 @@
 ---
 layout: page
 Title: Publications
-comments: False
 ---
 
 Articles in Peer-Reviewed Journals
