@@ -2,7 +2,7 @@
 layout: page
 title: "Publications"
 date: "Updated November 25, 2015"
-output: pdf_document
+output: md_document
 bibliography: mypubs.bib
 csl: year-ajae.txt
 nocite: |
@@ -29,8 +29,8 @@ permalink: /publications/
 To generate pdf: 
 
 1. Change YAML "output: pdf_document"
-2. Comment out the r code chunk at the bottom
-
+2. Comment out the .md r chunk at the bottom
+3. Uncomment the .pdf r chunk at the bottom
 -->
 
 
@@ -41,7 +41,7 @@ To generate pdf:
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-<!--
+
 
 ```{r, include=FALSE}
   # For .md 
@@ -49,7 +49,7 @@ To generate pdf:
    file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
                to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
 ```
--->
+<!--
 
 ```{r, include=FALSE}
   # For .pdf 
@@ -57,3 +57,4 @@ To generate pdf:
    file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.pdf", 
                to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.pdf")
 ```
+-->
