@@ -1,8 +1,8 @@
-﻿---
+---
+title: Publications
 comments: false
 layout: page
 permalink: /publications/
-title: Publications
 ---
 
 Articles in Peer-Reviewed Journals
