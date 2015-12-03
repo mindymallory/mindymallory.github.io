@@ -14,7 +14,7 @@ nocite: |
 To update this page:
 
 1. Update mypubs.bib
-2. Add the key to hte nocite parameter in the YAML header
+2. Add the key to the nocite parameter in the YAML header
 3. Knit
 4. Front matter in .md document is missing so open publications.md in the root directory and type
 ---
@@ -24,13 +24,9 @@ comments: False
 permalink: /publications/
 ---
 
-To generate pdf: 
-
-1. Change YAML "output: pdf_document"
-2. Comment out the .md r chunk at the bottom
-3. Uncomment the .pdf r chunk at the bottom
 -->
 
+[pdf](http://mindymallory.github.io/publications.pdf)
 
 
 # Articles in Peer-Reviewed Journals
@@ -41,6 +37,14 @@ To generate pdf:
 
 
 <!--
+To generate pdf: 
+
+1. Change YAML "output: pdf_document"
+2. Comment out the .md r chunk at the bottom
+3. Uncomment the .pdf r chunk at the bottom
+-->
+
+
 ```{r, include=FALSE}
   # For .md 
   # This adds the file to the root so Jekyll will include it in the site build
@@ -49,7 +53,7 @@ To generate pdf:
 ```
 
 
-
+<!--
 ```{r, include=FALSE}
   # For .pdf 
   # This adds the file to the root so Jekyll will include it in the site build
