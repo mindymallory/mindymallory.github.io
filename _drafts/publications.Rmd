@@ -1,6 +1,6 @@
 ---
-layout: page
 title: "Publications"
+output: md_document
 bibliography: mypubs.bib
 csl: year-ajae.txt
 nocite: |
@@ -8,6 +8,7 @@ nocite: |
   @irwin2011could, @sherrick2013s, @mallory2012testing, @mallory2011alternative, @mallory2014perils, @ando2012reply, @paulson2013determinants,
   @yu2015optimal, @mallory2015cost, @mallory2011coordination
 ---
+
 
 
 <!--
@@ -44,20 +45,20 @@ To generate pdf:
 3. Uncomment the .pdf r chunk at the bottom
 -->
 
-
+<!--
 ```{r, include=FALSE}
   # For .md 
   # This adds the file to the root so Jekyll will include it in the site build
-   file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
-               to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
+  # file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
+   #            to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
 ```
-
+-->
 
 <!--
 ```{r, include=FALSE}
   # For .pdf 
   # This adds the file to the root so Jekyll will include it in the site build
-   file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.pdf", 
-               to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.pdf")
+  # file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.pdf", 
+   #            to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.pdf")
 ```
 -->
