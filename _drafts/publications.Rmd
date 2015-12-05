@@ -11,22 +11,6 @@ nocite: |
 
 
 
-<!--
-To update this page:
-
-1. Update mypubs.bib
-2. Add the key to the nocite parameter in the YAML header
-3. Knit
-4. Front matter in .md document is missing so open publications.md in the root directory and type
----
-layout: page
-title: Publications
-comments: False
-permalink: /publications/
----
-
--->
-
 [pdf](http://mindymallory.github.io/publications.pdf)
 
 
@@ -37,28 +21,22 @@ permalink: /publications/
 \setlength{\parskip}{8pt}
 
 
-<!--
-To generate pdf: 
 
-1. Change YAML "output: pdf_document"
-2. Comment out the .md r chunk at the bottom
-3. Uncomment the .pdf r chunk at the bottom
--->
 
-<!--
+
 ```{r, include=FALSE}
   # For .md 
   # This adds the file to the root so Jekyll will include it in the site build
-  # file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.md", 
-   #            to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.md")
+   file.rename(from="_drafts/publications.md", 
+              to="publications.md")
 ```
--->
+
 
 <!--
 ```{r, include=FALSE}
   # For .pdf 
   # This adds the file to the root so Jekyll will include it in the site build
-  # file.rename(from="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/_drafts/publications.pdf", 
-   #            to="C:/Users/mallorym/Documents/GitHub/mindymallory.github.io/publications.pdf")
+     file.rename(from="_drafts/publications.md", 
+              to="publications.md")
 ```
 -->
