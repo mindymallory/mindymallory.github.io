@@ -5,9 +5,7 @@ comments: False
 permalink: /publications/
 ---
 
-Full CV [here](http://mindymallory.github.io/CV/)
-
-[pdf](http://mindymallory.github.io/publications.pdf)
+Full CV [here](http://mindymallory.github.io/CV/). PDF of publications [here](http://mindymallory.github.io/publications.pdf).
 
 Articles in Peer-Reviewed Journals
 ==================================
