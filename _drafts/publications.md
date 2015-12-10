@@ -1,33 +1,8 @@
-<!--
-To update this page:
-
-1. Update mypubs.bib
-2. Add the key to the nocite parameter in the YAML header
-3. Knit
-4. Front matter in .md document is missing so open publications.md in the root directory and type
----
-layout: page
-title: Publications
-comments: False
-permalink: /publications/
----
-
--->
 [pdf](http://mindymallory.github.io/publications.pdf)
 
 Articles in Peer-Reviewed Journals
 ==================================
 
-<!--
-To generate pdf: 
-
-1. Change YAML "output: pdf_document"
-2. Comment out the .md r chunk at the bottom
-3. Uncomment the .pdf r chunk at the bottom
--->
-<!--
-
--->
 <!--
 
 -->
