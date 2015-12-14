@@ -21,11 +21,7 @@ dir = paste0("_posts/", Sys.Date(), "-")
 output = paste0(dir, sub('.Rmd', '.md', filename))
 knit(paste0("_drafts/",filename), output)
 
-# If I want to test locally, run on the cmd line
-# $ cd C:\Users\mallorym\Documents\Github\mindymallory.github.io
-# $ jekyll serve
-# View at http://localhost:4000/
-# Otherwise push to github and see it live. 
+
 
 ###############################################################################################################
 # Publications Page .Rmd to .md
