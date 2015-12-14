@@ -5,6 +5,24 @@ comments: False
 permalink: /projects/
 ---
 
+
+<div id="webaddress">
+<i class="fa fa-envelope"></i> <a href="mailto:mallorym@illinois.edu">mallorym@illinois.edu</a>
+|
+<i class="fa fa-info-circle"></i> <a href="http://mindymallory.github.io/CV/">CV</a>
+|
+<i class="fa fa-hand-o-right"></i> <a href="http://ace.illinois.edu/directory/mallorym">ACE Webpage</a>
+|
+<i class="fa fa-github"></i> <a href="https://github.com/mindymallory">mindymallory</a>
+|
+<i class="fa fa-twitter"></i> <a href="https://twitter.com/ace_prof">ace_prof</a>
+|
+<i class="fa fa-google"></i> <a href="https://scholar.google.com/citations?user=bp9U6boAAAAJ&hl=en">scholar</a>
+</div>
+
+&nbsp; 
+
+
 # Books
 
 [Price Analysis: A Fundamental Approach to the Study of Commodity Prices](http://mindymallory.github.io/PriceAnalysis/): 
@@ -13,12 +31,6 @@ permalink: /projects/
 <p>This is a work-in-progress book for beginners on commodity price analysis from a fundamental perspective. These chapters are merely a collection of lecture notes used to teach ACE 427: Commodity Price Analysis at the <a href="http://ace.illinois.edu">University of Illinois</a> The course itself is based an the outline given to me by <a href="http://www.farmdoc.illinois.edu/irwin/">Scott Irwin</a>, who has taught ACE 427 at the University of Illinois for years. Many thanks to Scott for helping me get started organizing the course.</p>
 
 <p>This book is targeted at the upper level undergraduate student, or professional beginning a career related to commodity markets. The objective is to familiarize the reader with the sources of market information and research commonly used by practicing professionals working in the industry. </p>
-
-<p>This work is in very early stages of completion. What is published here is just what I had time to scramble putting together before each lecture. Over the next few years of teaching the course I will edit, add, and amend the material here. In it's current state there are numerous errors, typos, and omissions. I publish it here with no warranty in hopes of soliciting comments. Feel free to use the material for your own study, or to use it in your own Price Analysis Course.</p>
-
-<p>
-If you would like to collaborate on this project, please contact me. I especially would appreciate a collaborator with expertise on livestock and crude oil markets. To see my plans for next steps on the project, see <a href="https://github.com/mindymallory/PriceAnalysis/issues">issues</a> in the github repository. 
-</p>
 
 
 

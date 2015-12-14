@@ -5,6 +5,8 @@ comments: False
 permalink: /about/
 ---
 
+
+
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:mallorym@illinois.edu">mallorym@illinois.edu</a>
 |
@@ -30,18 +32,17 @@ Mindy Mallory is an assistant professor in the [Department of Agricultural and C
 
 My research focuses on agricultural marketing and policy. I analyze prices and risk in commodity, environmental, and natural resource markets to determine if they function in an efficient manner. Also, my work investigates whether risk management activities and governmental policies are effective.
 
-[Publications](http://mindymallory.github.io/publications/)
 
 ### Teaching
 
-**Microeconmic Analysis (ACE 500)**: Students develop an understanding of economic models of producer and consumer behavior and equilibrating markets. While the models covered are mathematical, the course aims to teach students how to apply those models to explain observed economic phenomena and to be able to understand and use work done by other economists.
+**Microeconmic Analysis (ACE 500)**: This is standard first-year master's theory class. It has a heavy emphasis on core neoclassical economic theory, with some modern extensions.
 
-**Commodity Price Analysis (ACE 427)**: Students learn what drives prices in commodity markets. First we cover fundamental supply and demand characteristics of key commodity markets like corn, soybeans, and wheat, livestock and energy. These fundamental characteristics drive how we approach price analysis and determine the key features we need to understand current prices and forecast future prices. Considerable time will be spent introducing the student to important sources of information (from the United States Department of Agriculture, e.g.) that is critical to market participants. Also, students follow market analysis produced by academic economists, commercial grain handlers, professional brokers, market advisors, and proprietary traders and others to gain an understanding of who does commodity price analysis professionally, and how they implement the topics in this course to their professional activities on a daily basis.
+**Commodity Price Analysis (ACE 427)**: Students learn what drives prices in commodity markets. First we cover fundamental supply and demand characteristics of key commodity markets like corn, soybeans, and wheat, livestock and energy. Considerable time is spent introducing the student to important sources of information (from the United States Department of Agriculture, e.g.) that are critical to market participants. 
 
 Web-Based Textbook  
 [Price Analysis: A Fundamental Approach to the Study of Commodity Prices](http://mindymallory.github.io/PriceAnalysis/)
 
-**Commodity Futures Markets (ACE 428)** Students gain a working knowledge of commodity futures and options markets. Students learn the markets’ role as an economic allocation mechanism, describe intuitively and analytically the relationship between a commodity’s cash, forward, and futures prices, price option contracts according to some popular models, and implement a risk management strategy that includes hedging on a commodity futures exchange.
+**Commodity Futures Markets (ACE 428)** Students gain a working knowledge of commodity futures and options markets. We cover the markets’ role as an economic allocation mechanism, describe intuitively and analytically the relationship between a commodity’s cash, forward, and futures prices, price option contracts according to some popular models, and implement a risk management strategy that includes hedging on a commodity futures exchange.
 
 
 
