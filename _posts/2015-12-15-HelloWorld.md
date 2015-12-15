@@ -5,7 +5,7 @@ title: "Hello World!"
 
 I have been hesitant to blog. Preferring to prioritize my time on research that was targeted at peer-reviewed journal articles, taking time to blog previously seemed like a distraction and dangerous to my prospects of securing tenure. 
 
-Now, my tenure case is pending a vote by the campus committee (and final approval by the Board of Trustees), with a couple of positive votes behind me at the department and college level (double backflip!). I am contemplating next steps. While I had some success publishing pre-tenure, I would like my work to have more impact beyond acedemic audiences. This blog is an effort toward that goal. 
+Now, my tenure case is pending a vote by the campus committee (and final approval by the Board of Trustees), with a couple of positive votes behind me at the department and college level (double back-flip!). I am contemplating next steps. While I had some success publishing pre-tenure, I would like my work to have more impact beyond academic audiences. This blog is an effort toward that goal. 
 
 So what should readers expect to find in this blog?
 
