@@ -6,23 +6,6 @@ permalink: /projects/
 ---
 
 
-<div id="webaddress">
-<i class="fa fa-envelope"></i> <a href="mailto:mallorym@illinois.edu">mallorym@illinois.edu</a>
-|
-<i class="fa fa-info-circle"></i> <a href="http://mindymallory.github.io/CV/">CV</a>
-|
-<i class="fa fa-hand-o-right"></i> <a href="http://ace.illinois.edu/directory/mallorym">ACE Webpage</a>
-|
-<i class="fa fa-github"></i> <a href="https://github.com/mindymallory">mindymallory</a>
-|
-<i class="fa fa-twitter"></i> <a href="https://twitter.com/ace_prof">ace_prof</a>
-|
-<i class="fa fa-google"></i> <a href="https://scholar.google.com/citations?user=bp9U6boAAAAJ&hl=en">scholar</a>
-</div>
-
-&nbsp; 
-
-
 # Books
 
 [Price Analysis: A Fundamental Approach to the Study of Commodity Prices](http://mindymallory.github.io/PriceAnalysis/): 

@@ -9,6 +9,8 @@ Now, my tenure case is pending a vote by the campus committee (and final approva
 
 So what should readers expect to find in this blog?
 
+
+
 ## Research
 
 The time between beginning a research project to seeing the final publication in print is frustratingly long. While the peer-review process is (an attempt) to keep quality of academic research high---and it definitely has a valuable place in the process---the timeline is simply not always conducive to impacting stakeholders', policymakers', and others' decisions. By the time your article is in print, sometimes the issue of the day has been decided for bettor or worse. 
