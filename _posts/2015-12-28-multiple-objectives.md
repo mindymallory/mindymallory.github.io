@@ -18,7 +18,7 @@ of carbon dioxide from entering the environment.
 <!-- Its easier to resize the html than markdown-->
 <img src="{{site.url}}\images\Waverly_logo.png" width="250px" height="50px" />
 
-![Waverly Wind Farm]({{site.url}}\images\Waverly_logo.png)
+![Waverly Wind Farm]({{site.url}}/images/Waverly_logo.png)
 
 Image Source: [Media Kit from Project
 Website](http://waverlywindfarm.com/)
