@@ -16,7 +16,7 @@ farm producing 199 megawatts of electricity and displacing 331,349 tons
 of carbon dioxide from entering the environment.
 
 <!-- Its easier to resize the html than markdown-->
-<img src="images\Waverly_logo.png" width="250px" height="50px" />
+<img src="{{site.url}}/images/Waverly_logo.png" width="250px" height="50px" />
 
 Image Source: [Media Kit from Project
 Website](http://waverlywindfarm.com/)
