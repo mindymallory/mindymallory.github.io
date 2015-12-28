@@ -16,7 +16,7 @@ farm producing 199 megawatts of electricity and displacing 331,349 tons
 of carbon dioxide from entering the environment.
 
 <!-- Its easier to resize the html than markdown-->
-<img src="{{site.url}}\images\Waverly_logo.png" width="200px" height="200px" />
+<img src="{{site.url}}\images\Waverly_logo.png" width="400px" height="200px" />
 
 Image Source: [Media Kit from Project
 Website](http://waverlywindfarm.com/)
@@ -49,7 +49,7 @@ not exactly an environmentalist, but he appreciates the value and
 scarcity of native grasslands. He has even tried to restore some land to
 native tall-grass prairie with little luck.
 
-<img src="{{site.url}}\images\MeridianWayImage_01.jpg" width="200px" height="200px" />
+<img src="{{site.url}}\images\MeridianWayImage_01.jpg" width="400px" height="200px" />
 
 Photo from the Meridian Way wind farm in Cloud county Kansas. Source:
 [Media Kit from Project Website](http://waverlywindfarm.com/)
