@@ -4,8 +4,8 @@ layout: page
 title: "Multiple Objectives in Conservation Portfolios: Waverly Wind Farm"
 ---
 
-Background
-==========
+# Background
+
 
 My husband, kids, and I just got back from visiting my family in
 Williamsburg, KS for Christmas. Just west of my parents' house is a
@@ -56,8 +56,8 @@ native tall-grass prairie with little luck.
 Photo from the Meridian Way wind farm in Cloud county Kansas. Source:
 [Media Kit from Project Website](http://waverlywindfarm.com/)
 
-Connecting to Research
-======================
+# Connecting to Research
+
 
 On the long car ride home I started thinking about this conversation in
 the context of my own research. [Amy
