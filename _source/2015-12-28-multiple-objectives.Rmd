@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Multiple Objectives in Conservation Portfolios: Waverly Wind Farm"
+---
+
+
+My husband, kids, and I just got back from visiting my family in Williamsburg, KS for Christmas. Impossible to miss on the horizon just west of my parents house was a newly constructed wind farm. 
+
+The [Waverly Wind Farm](http://waverlywindfarm.com/) built, maintianed, operated by [EDP Renewables](http://www.edpr.com/). The project's website says the farm will operate 95 turbines at the Waverly farm producing 199 megawatts of electricity and displacing 331,349 tons of carbon dioxide from entering the environment. 
+
+<!-- Its easier to resize the html -->
+
+<img src="_assets\Waverly_logo.png" width="250px" height="50px" />
+
+Image Source: [Media Kit from Project Website](http://waverlywindfarm.com/)
+
+
+Of course a project of this scale is big news in my hometown and the surrounding area. The construction of the farm would have been a noticable economic stimulus. Landowners now have an additional stream of income from their properties, and land containing the turbins may see an increase in value as a result. 
+
+My parents know (and I probably do to) several of the landowners with whom EDP Renewables have entred into long term leases to locate the turbings on the landowners property.  
