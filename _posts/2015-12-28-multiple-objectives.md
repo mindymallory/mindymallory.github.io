@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: "Multiple Objectives in Conservation Portfolios: Waverly Wind Farm"
