@@ -3,12 +3,11 @@ layout: page
 title: "Multiple Objectives in Conservation Portfolios: Waverly Wind Farm"
 ---
 
-# Background
-
-
 My husband, kids, and I just got back from visiting my family in
 Williamsburg, KS for Christmas. Just west of my parents' house is a
 newly constructed wind farm impossible to miss on the horizon.
+
+# Background
 
 The [Waverly Wind Farm](http://waverlywindfarm.com/) is built,
 maintained, and operated by [EDP Renewables](http://www.edpr.com/). The
