@@ -19,4 +19,4 @@ It occured to me that some conventions in naming the releases would be useful. W
 
 ![](figure\source\release.png)
 
-<img src="images/release.png" />
+<img src="images\release.png" />
