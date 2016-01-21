@@ -15,6 +15,8 @@ When we submit an academic paper to a conference, that is a 'release'. When we s
 
 So, I created a [release](https://github.com/mindymallory/BBOBAS/releases) of the repository where this paper and analysis lives. 
 
-It occured to me that some conventions in naming the releases would be useful. When you click on the 'Releases' link in a Github repository and then choose 'Draft a new release'. You see something like this: 
+It occured to me that some conventions in naming the releases would be useful. When you click on the 'Releases' link in a Github repository and then choose 'Draft a new release'. You see something like this:   
 
-![](images/release.png)
+![](figure\source\release.png)
+
+<img src="images/release.png" />
