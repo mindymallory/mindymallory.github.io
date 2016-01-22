@@ -23,8 +23,10 @@ There is a link to a description of [Semantic Versioning](http://semver.org/), w
 
 Given a version number SUBMISSION.REVISION, increment the: 
  
-1. MAJOR version when you make a new submission. (Conference proceedings should get the number 0.1.0)
+1. MAJOR version when you make a new submission to a journal. 
 2. MINOR version when you submit revisions 
+    
+So when you submit the manuscript to the first journal, release v1.0. If rejected and you submit to the second journal, release version 2.0. If at the second journal revisions are requested, release v2.1. I propose that initial draft for circulation gets the number 0.0, and conference proceedings get the number 0.1.
 
 I'll commit to this convention going forward. Let me know what you think!
 
