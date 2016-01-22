@@ -17,12 +17,12 @@ So, I created a [release](https://github.com/mindymallory/BBOBAS/releases) of th
 
 It occured to me that some conventions in naming the releases would be useful. When you click on the 'Releases' link in a Github repository and then choose 'Draft a new release'. You see something like this:   
 
-![Releases](images/release.PNG)
+![Releases]({{site.url}}/images/release.PNG)
 
 There is a link to a description of [Semantic Versioning](http://semver.org/), which proposes a philosophy for what the numbers in a release mean. The spirit of the format proposed is great, but the exact categories don't really translate to the context of an academic manuscript. So, I propose the following. 
 
 Given a version number SUBMISSION.REVISION, increment the: 
-
+ 
 1. MAJOR version when you make a new submission. (Conference proceedings should get the number 0.1.0)
 2. MINOR version when you submit revisions 
 
