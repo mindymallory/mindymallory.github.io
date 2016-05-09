@@ -1,13 +1,4 @@
 _site
-.sass-cache
-.jekyll-metadata
-.Rproj.user
-
-# History files
-.Rhistory
-.Rapp.history
-# Session Data files
-.RData
-.Rproj
-mindymallory.github.io.Rproj
-#
+_drafts
+.DS_Store
+Gemfile.lock

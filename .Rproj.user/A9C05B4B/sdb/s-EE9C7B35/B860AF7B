@@ -1,0 +1,18 @@
+{
+    "contents" : "name:   'Mindy L. Mallory'\nurl:    'http://mindymallory.github.io'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\n\ninclude:  ['_pages']\n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
+    "created" : 1462826024351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1941635539",
+    "id" : "B860AF7B",
+    "lastKnownWriteTime" : 1462826872,
+    "path" : "~/GitHub/mindymallory.github.io/_config.yml",
+    "project_path" : "_config.yml",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "yaml"
+}
