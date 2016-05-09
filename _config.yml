@@ -3,7 +3,7 @@ url:    'http://mindymallory.github.io'
 author: 'Mindy Mallory'
 
 gems: [jekyll-paginate]
-baseurl: /
+
 
 include:  ['_pages']
 
