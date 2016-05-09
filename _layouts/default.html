@@ -1,4 +1,4 @@
-﻿{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}<!doctype html>
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}<!doctype html>
 <html>
 {% include google_analytics.html %}
 	<head>
@@ -20,22 +20,13 @@
 	<body>
 		<div class="wrapper{% if location == '' %} home{% endif %}">
 			<header>
-				<h1>Reproducible Research Project Template</h1>
+				<h1>Mindy L. Mallory</h1>
+				<h1><a href="/"><img src="https://avatars0.githubusercontent.com/u/11220097?v=3&s=460" alt="{{ site.name }}" width="300" /></a></h1>
 				<nav><ul>
-					<li><a {% if location == 'introduction' %}class="active" {% endif %}href="/introduction">Introduction</a></li>
-					<li><a {% if location == 'Introduction to R' %}class="active" {% endif %}href="/intro-to-r/">Introduction to R</a></li>
-					<li><a {% if location == 'Getting Started' %}class="active" {% endif %}href="/getting-started/">Getting Started</a></li>
-					<li><a {% if location == 'Data' %}class="active" {% endif %}href="/data-raw/">Data</a></li>
-					<li><a {% if location == 'Analysis' %}class="active" {% endif %}href="/analysis/">Analysis</a></li>
-          <li><a {% if location == 'Manuscript' %}class="active" {% endif %}href="/manuscript/">Manuscript</a></li>
-          <li><a {% if location == 'Markdown' %}class="active" {% endif %}href="/markdown/">Markdown</a></li>
-          <li><a {% if location == 'Latex' %}class="active" {% endif %}href="/latex/">Latex</a></li>
-          <li><a {% if location == 'Word' %}class="active" {% endif %}href="/need-word/">If Your Collaborators Use Word</a></li>
-          <li><a {% if location == 'Starting Your Own' %}class="active" {% endif %}href="/on-your-own/">Your Own Reproducible Project</a></li>
-          <li><a {% if location == 'background' %}class="active" {% endif %}href="/background/">Background</a></li>
-          <li><a href="https://github.com/mindymallory/research-project-template">Download Repository Contents</a></li>
-
-					
+					<li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">About</a></li>
+					<li><a {% if location == 'projects' %}class="active" {% endif %}href="/projects/">Projects</a></li>
+					<li><a {% if location == 'blog' %}class="active" {% endif %}href="/blog/">Blog</a></li>
+					<li><a {% if location == 'contact' %}class="active" {% endif %}href="/contact/">Contact</a></li>
 				</ul></nav>
 			</header>
 			<section>
