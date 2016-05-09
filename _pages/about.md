@@ -10,7 +10,7 @@ Mindy Mallory is an assistant professor in the [Department of Agricultural and C
 
 [CV](http://mindymallory.github.io/CV/)
 
-![]({{site.url}}/images/mallorym_2010i1.jpg)
+![]({{site.baseurl}}/images/mallorym_2010i1.jpg)
 
 ### Research
 

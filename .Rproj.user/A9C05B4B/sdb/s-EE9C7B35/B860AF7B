@@ -1,12 +1,12 @@
 {
-    "contents" : "name:   'Mindy L. Mallory'\nurl:    'http://mindymallory.github.io'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\n\ninclude:  ['_pages']\n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
+    "contents" : "name:   'Mindy L. Mallory'\nurl:    'http://mindymallory.github.io'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\nbaseurl: /\n\ninclude:  ['_pages']\n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
     "created" : 1462826024351.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1941635539",
+    "hash" : "3513908661",
     "id" : "B860AF7B",
-    "lastKnownWriteTime" : 1462826872,
+    "lastKnownWriteTime" : 1462829760,
     "path" : "~/GitHub/mindymallory.github.io/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {
