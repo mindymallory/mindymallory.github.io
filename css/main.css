@@ -202,29 +202,31 @@ nav ul {
 	height:24px;
 	padding:0;
 	background: #fff;
+	border-radius:5px;
+	border:1px solid #e5e5e5;
 	width:272px;
 }
 
 nav li {
-
+	float:left;
 	height:24px;
-	width:272px;
-
+	width:67px;
+	border-right:1px solid #e5e5e5;
 }
 
 nav li:last-child {
 	border-right:none;
-	width:272px;
+	width:68px;
 }
 
 nav li a {
-	font-size:16px;
+	font-size:11px;
 	color:#999;
 	display:block;
-	text-align:left;
+	text-align:center;
 	line-height:24px;
 	height:24px;
-	font-size:16px;
+	font-size:13px;
 }
 
 nav li:first-child a {
