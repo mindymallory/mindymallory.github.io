@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Github 'Releases' as Academic Manuscript Milestones"
 ---
 

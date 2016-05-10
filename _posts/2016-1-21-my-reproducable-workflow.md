@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "My Reproducible Workflow: Collaboration is the Tricky Part"
 ---
 

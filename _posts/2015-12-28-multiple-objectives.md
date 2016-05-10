@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Multiple Objectives in Conservation Portfolios: Waverly Wind Farm"
 ---
 
