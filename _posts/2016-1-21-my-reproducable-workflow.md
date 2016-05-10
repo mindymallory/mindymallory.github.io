@@ -7,7 +7,7 @@ I have been slowly migrating to a reproducible (and automatically refreshed) wor
 
 In 2012 I committed to learning R, and by chance picked up a copy of [Reproducible Research with R and R Studio](http://www.amazon.com/Reproducible-Research-Studio-Chapman-Series/dp/1466572841) by [Christopher Gandrud](http://christophergandrud.blogspot.com/). and since then I have become a full fledged [RStudio](https://www.rstudio.com/), [rmarkdown](http://rmarkdown.rstudio.com/), and [knitr](http://yihui.name/knitr/) fan (I wanted to say aficionado here, but I don't feel I'm much of an expert). Now I basically do all of my statistical analysis, academic writing, and other word processing in markdown and the RStudio IDE. My academic projects live on [Github](https://github.com/mindymallory) for version control, and lightweight word processing-type projects live in my Dropbox or Box folders. 
 
-"{{ more }}"
+{{ more }}
 
 I'm still working out the perfect workflow; for example, most of my colleagues use Word to produce manuscripts. When they return a manuscript edited in Word, I have to manually make those edits in the .rmd file to maintain the reproducible document. [This](http://www.writage.com/) tool looks like it would almost work, but of course, to preserve reproducibility the conversion would have to go from .docx to .rmd, which is not possible. A conversion from .docx to .md loses the r code chunks that keep the document reproducible. I think this issue can only be solved by manually incorporating their edits in the .rmd file. 
 
