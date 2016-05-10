@@ -421,7 +421,7 @@ img.profile {
 img.pull-right,
 img.pull-right-responsive {
 	max-width: 40%;
-	float: right;
+	float: center;
 	margin: 0 0 1em 1em;
 }
 
