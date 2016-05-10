@@ -1,0 +1,18 @@
+{
+    "contents" : "---\nlayout: post\ntitle: \"Reproducible Research Project Template and Tutorial\"\n---\n\nAfter ruminating on reproducible research project for about a semester, I realized two main obsticles. First, even I will have a hard time remembering how to implement the workflow I described in a previous post, if it has been a few months since I started a new project where I am lead. Second, I want students I advise to have the easiest entry into R and reproducible research in R. A short, vague description won't do. \n\nSo, I created a template for a reproducible reserach project.  \n\nIt is hosted on [Github](https://github.com/) in [This Repository](https://github.com/mindymallory/research-project-template).  \nA tutorial that describes how to implement project can be found [here.](http://mindymallory.github.io/research-project-template/)  \n\n![](http://mindymallory.github.io/research-project-template/images/template.PNG)\n\n",
+    "created" : 1462893335564.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "412577654",
+    "id" : "13A67C40",
+    "lastKnownWriteTime" : 1462894383,
+    "path" : "~/GitHub/mindymallory.github.io/_posts/2016-05-10-Reproducible-Template.md",
+    "project_path" : "_posts/2016-05-10-Reproducible-Template.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
