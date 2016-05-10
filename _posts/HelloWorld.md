@@ -11,6 +11,8 @@ Now, my tenure case is pending a vote by the campus committee (and final approva
 
 The time between beginning a research project to seeing the final publication in print is frustratingly long. While the peer-review process is (an attempt) to keep quality of academic research high---and it definitely has a valuable place in the process---the timeline is simply not always conducive to impacting stakeholders', policymakers', and others' decisions. By the time your article is in print, sometimes the issue of the day has been decided for bettor or worse. 
 
+{{ more }}
+
 This blog will communicate research findings that a broad audience would find interesting or useful. Often, details and results that are interesting but do not quite fit into the full academic paper destined for publication. I will also post summaries of my recently published work.
 
 ## Teaching

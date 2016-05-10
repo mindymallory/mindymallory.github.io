@@ -15,6 +15,8 @@ project's website says the farm will operate 95 turbines at the Waverly
 farm producing 199 megawatts of electricity and displacing 331,349 tons
 of carbon dioxide from entering the environment.
 
+{{ more }}
+
 <!-- Its easier to resize the html than markdown-->
 <img src="{{site.url}}\images\Waverly_logo.png" width="315.35px" height="400px" />
 
