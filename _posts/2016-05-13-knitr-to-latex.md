@@ -32,4 +32,6 @@ So, the solutions I came up with to these problems are:
 
 ```
 
+Once I made those changes I could generate a pdf that was fully formatted for Elsevier. 
+
 
