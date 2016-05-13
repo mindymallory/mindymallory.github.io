@@ -12,6 +12,8 @@ I just finished submitting the first article to a journal that I wrote with Rmar
 
 It is true that while developing the working paper Rmarkdown + knitr + pandoc produced a very nice looking PDF for the working paper. However, I couldn't really finalize the document for sumbission; I had to manually edit some things in the `keep_tex: true` file. 
 
+{{ more }}
+
 I was surprized because I expected this to be seamless. I submitted to an Elsevier journal, and the `rticles` package contains an Elsevier articles template that I assumed would whip up a fully formatted Elsevier just like in the class documentation. 
 
 It didn't really work that way. I think the default latex .csl file that pandoc uses was interfering or overriding the `elsarticle.csl` file that `rticles` was pulling in. The format was not the default, but it certainly was not formatted for Elsevier. 
