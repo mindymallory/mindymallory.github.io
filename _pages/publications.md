@@ -104,3 +104,5 @@ Yu, J., and M.L. Mallory. 2015. “An optimal hybrid emission control
 system in a multiple compliance period model.” *Resource and Energy
 Economics* 39:16–28. Available at:
 <http://www.sciencedirect.com/science/article/pii/S0928765514000773>.
+
+Trujillo-Barrera, A., P. Garcia, M. Mallory. 2016. "Price Density Forecasts in the U.S. Hog Market: Composite Procedures." *American Journal of Agricultural Economics* forthcoming. 
