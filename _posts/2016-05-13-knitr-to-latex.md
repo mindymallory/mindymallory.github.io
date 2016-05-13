@@ -5,7 +5,10 @@ title: "Tweaks to the knitr + pandoc Generated .tex to Finalize Formatting"
 
 ## Problems
 
-I just finished submitting the first article to a journal that I wrote with Rmarkdown + knitr + pandoc in RStudio. Using this workflow has two purposes: 1) maintian reproducibility and 2) remove formatting effort. 
+I just finished submitting the first article to a journal that I wrote with Rmarkdown + knitr + pandoc in RStudio. Using this workflow has two purposes: 
+
+1. maintian reproducibility and 
+2. remove formatting effort 
 
 It is true that while developing the working paper Rmarkdown + knitr + pandoc produced a very nice looking PDF for the working paper. However, I couldn't really finalize the document for sumbission; I had to manually edit some things in the `keep_tex: true` file. 
 
