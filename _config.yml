@@ -2,8 +2,9 @@ name:   'Mindy L. Mallory'
 url:    'http://mindymallory.github.io'
 author: 'Mindy Mallory'
 
-gems: [jekyll-paginate]
-
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 include:  ['_pages']
 
