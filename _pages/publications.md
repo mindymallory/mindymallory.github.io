@@ -108,4 +108,4 @@ Economics* 39:16–28. Available at:
 Trujillo-Barrera, A., P. Garcia, M. Mallory. 2016. "Price Density Forecasts in the U.S. Hog Market: Composite Procedures." *American Journal of Agricultural Economics* forthcoming. 
 
 Shah, P., M. Mallory, A. Ando, and G. Guntenspergen. 2016. “Fine-Resolution Conservation Planning with Limited Climate-Change Information.” Conservation Biology forthcoming. Available at:
-<http://onlinelibrary.wiley.com/doi/10.1111/cobi.12793/abstract.
+<http://onlinelibrary.wiley.com/doi/10.1111/cobi.12793/abstract>.
