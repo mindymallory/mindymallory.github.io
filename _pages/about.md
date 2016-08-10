@@ -7,7 +7,7 @@ permalink: /about/
 
 ![]({{site.url}}/images/mexico.jpg)
 
-Mindy Mallory is an assistant professor in the [Department of Agricultural and Consumer Economics](http://ace.illinois.edu/) at the [University of Illinois](http://illinois.edu/).
+Mindy Mallory is an Associate Professor in the [Department of Agricultural and Consumer Economics](http://ace.illinois.edu/) at the [University of Illinois](http://illinois.edu/).
 
 [CV](http://mindymallory.github.io/CV/)
 
