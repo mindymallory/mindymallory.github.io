@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.18.1" />
+  <meta name="author" content="Graeme L. Hickey">
+  <meta name="description" content="Research Associate in Biostatistics">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="http://www.glhickey.com/index.xml" type="application/rss+xml" title="Dr Graeme L. Hickey">
+  <link rel="feed" href="http://www.glhickey.com/index.xml" type="application/rss+xml" title="Dr Graeme L. Hickey">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://www.glhickey.com/post/2017-02-17-using-joinerml/">
+
+  
+
+  <title>Using joineRML v0.1.1 | Dr Graeme L. Hickey</title>
+
+
+
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Dr Graeme L. Hickey</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Software</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">Using joineRML v0.1.1</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-02-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Fri, Feb 17, 2017
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/r">R</a
+    >, 
+    
+    <a href="/tags/joinerml">joineRML</a
+    >, 
+    
+    <a href="/tags/joint-modelling">joint modelling</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.glhickey.com%2fpost%2f2017-02-17-using-joinerml%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Using%20joineRML%20v0.1.1&amp;url=http%3a%2f%2fwww.glhickey.com%2fpost%2f2017-02-17-using-joinerml%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fwww.glhickey.com%2fpost%2f2017-02-17-using-joinerml%2f&amp;title=Using%20joineRML%20v0.1.1"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fwww.glhickey.com%2fpost%2f2017-02-17-using-joinerml%2f&amp;title=Using%20joineRML%20v0.1.1"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Using%20joineRML%20v0.1.1&amp;body=http%3a%2f%2fwww.glhickey.com%2fpost%2f2017-02-17-using-joinerml%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+
+
+
+<p>The <code>joineRML</code> package implements methods for analyzing data from <em>multiple</em> longitudinal studies in which the responses from each subject consists of time-sequences of repeated measurements and a possibly censored time-to-event outcome. The modelling framework for the repeated measurements is the multivariate linear mixed effects model. The model for the time-to-event outcome is a Cox proportional hazards model with log-Gaussian frailty. Stochastic dependence is captured by allowing the Gaussian random effects of the linear model to be correlated with the frailty term of the Cox proportional hazards model. For full details of the model, please consult the technical vignette by running</p>
+<pre class="r"><code>vignette(&quot;technical&quot;, package = &quot;joineRML&quot;)</code></pre>
+<div id="heart-valve-data" class="section level1">
+<h1>Heart valve data</h1>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>The simplest way to explain the concepts of the package is through an example. <code>joineRML</code> comes with the data set <code>heart.valve</code>. Details of this data can be found in the help file by running the command</p>
+<pre class="r"><code>help(&quot;heart.valve&quot;, package = &quot;joineRML&quot;)</code></pre>
+<p>This data is in so-called <em>long</em> or <em>unbalanced</em> format:</p>
+<pre class="r"><code>library(&quot;joineRML&quot;)
+data(&quot;heart.valve&quot;)
+head(heart.valve)
+##   num sex      age      time    fuyrs status grad log.grad   lvmi log.lvmi
+## 1   1   0 75.06027 0.0109589 4.956164      0   10 2.302585 118.98 4.778955
+## 2   1   0 75.06027 3.6794520 4.956164      0   10 2.302585 118.98 4.778955
+## 3   1   0 75.06027 4.6958900 4.956164      0   10 2.302585 137.63 4.924569
+## 4   2   0 45.79452 6.3643840 9.663014      0   14 2.639057 114.93 4.744323
+## 5   2   0 45.79452 7.3041100 9.663014      0    9 2.197225 109.80 4.698661
+## 6   2   0 45.79452 8.3013700 9.663014      0   12 2.484907 157.40 5.058790
+##   ef  bsa lvh prenyha redo size con.cabg creat dm acei lv emergenc hc
+## 1 93 1.77   1       3    0   27        1   103  0    1  1        0  0
+## 2 93 1.77   1       3    0   27        1   103  0    1  1        0  0
+## 3 93 1.77   1       3    0   27        1   103  0    1  1        0  0
+## 4 68 1.92   1       1    1   22        0    76  0    0  2        0  0
+## 5 70 1.92   1       1    1   22        0    76  0    0  2        0  0
+## 6 56 1.92   1       1    1   22        0    76  0    0  2        0  0
+##   sten.reg.mix              hs
+## 1            1 Stentless valve
+## 2            1 Stentless valve
+## 3            1 Stentless valve
+## 4            1       Homograft
+## 5            1       Homograft
+## 6            1       Homograft</code></pre>
+<p>The data refer to 256 patients and are stored in the unbalanced format, which is convenient here because measurement times were unique to each subject. The data are stored as a single R object, <code>heart.valve</code>, which is a data frame of dimension 988 by 25. The average number of repeated measurements per subject is therefore 988/256 = 3.86. As with any unbalanced data set, values of time-constant variables are repeated over all rows that refer to the same subject. The dimensionality of the data set can be confirmed by a call to the <code>dim()</code> function, whilst the names of the 25 variables can be listed by a call to the <code>names()</code> function:</p>
+<pre class="r"><code>dim(heart.valve)
+## [1] 988  25
+names(heart.valve)
+##  [1] &quot;num&quot;          &quot;sex&quot;          &quot;age&quot;          &quot;time&quot;        
+##  [5] &quot;fuyrs&quot;        &quot;status&quot;       &quot;grad&quot;         &quot;log.grad&quot;    
+##  [9] &quot;lvmi&quot;         &quot;log.lvmi&quot;     &quot;ef&quot;           &quot;bsa&quot;         
+## [13] &quot;lvh&quot;          &quot;prenyha&quot;      &quot;redo&quot;         &quot;size&quot;        
+## [17] &quot;con.cabg&quot;     &quot;creat&quot;        &quot;dm&quot;           &quot;acei&quot;        
+## [21] &quot;lv&quot;           &quot;emergenc&quot;     &quot;hc&quot;           &quot;sten.reg.mix&quot;
+## [25] &quot;hs&quot;</code></pre>
+<p>We will only analyse a subset of this data, namely records with case-complete data for heart valve gradient (<code>grad</code>) and left ventricular mass index (<code>lvmi</code>):</p>
+<pre class="r"><code>hvd &lt;- heart.valve[!is.na(heart.valve$grad) &amp; !is.na(heart.valve$lvmi), ]</code></pre>
+</div>
+<div id="model-fitting" class="section level2">
+<h2>Model fitting</h2>
+<p>The main function in the <code>joineRML</code> package is the <code>mjoint()</code> function. Its main (required) arguments are:</p>
+<ul>
+<li><p><code>formLongFixed</code>: a list (of length equal to the number of longitudinal outcome types considered) of two-sided formulae specifying the response on the left-hand side and the mean linear predictor terms for the fixed effects in the linear mixed models on the right-hand side.</p></li>
+<li><p><code>formLongRandom</code>: a list (of same length as <code>formLongFixed</code>) of one-sided formulae specifying the model for random effects in the linear mixed models.</p></li>
+<li><p><code>formSurv</code>: a formula specifying the proportional hazards regression model for the time-to-event outcome in the same structure as for <code>survival::coxph</code>.</p></li>
+<li><p><code>data</code>: a list (of same length as <code>formLongFixed</code>) of data.frames; one for each longitudinal outcome. It is assumed that the event time data is in the first data.frame (i.e. <code>data[[1]]</code>), unless the argument <code>survData</code> (which defaults to <code>NULL</code>) is specified. If <span class="math inline">\(K&gt;1\)</span> and the data are balanced within patients (i.e. multiple markers measured at common measurement times), then one can specify <code>data</code> as a data frame rather than as a list.</p></li>
+<li><p><code>timeVar</code>: the column name indicating the time variable in the linear mixed effects model. If <span class="math inline">\(K&gt;1\)</span> and the data frames have different column names for time, then <code>timeVar</code> can alternatively be specified as a vector of strings of length <span class="math inline">\(K\)</span>.</p></li>
+</ul>
+<p>We can fit a bivariate joint model to the log-transformed valve gradient and LVMI indices in the <code>hvd</code> subset using</p>
+<pre class="r"><code>set.seed(12345)
+fit &lt;- mjoint(
+  formLongFixed = list(&quot;grad&quot; = log.grad ~ time + sex + hs, 
+                       &quot;lvmi&quot; = log.lvmi ~ time + sex),
+  formLongRandom = list(&quot;grad&quot; = ~ 1 | num,
+                        &quot;lvmi&quot; = ~ time | num),
+  formSurv = Surv(fuyrs, status) ~ age,
+  data = list(hvd, hvd),
+  timeVar = &quot;time&quot;)
+## Running multivariate LMM EM algorithm to establish initial parameters...
+## Finished multivariate LMM EM algorithm...
+## EM algorithm has converged!
+## Estimating posterior random effects...
+## Estimating approximate standard errors...</code></pre>
+<p>Details on the model estimation algorithm are provided in the technical details vignette. We note here that this is not necessarily the most appropriate model for the data, and is included only for the purposes of demonstration. There are a number of other useful arguments in the <code>mjoint</code> function; for example, <code>inits</code> for specifying (partial) initial values, <code>control</code> for controlling the optimization algorithm, and <code>verbose</code> for monitoring the convergence output in real-time. A full list of all arguments with explanation are given in the help documentation, accessed by running <code>help(&quot;mjoint&quot;)</code>.</p>
+</div>
+<div id="post-fit-analysis" class="section level2">
+<h2>Post-fit analysis</h2>
+<p>Once we have a fitted <code>mjoint</code> object, we can begin to extract relevant information from it. Most summary statistics are available from the <code>summary</code> function:</p>
+<pre class="r"><code>summary(fit)
+## 
+## Call:
+## mjoint(formLongFixed = list(grad = log.grad ~ time + sex + hs, 
+##     lvmi = log.lvmi ~ time + sex), formLongRandom = list(grad = ~1 | 
+##     num, lvmi = ~time | num), formSurv = Surv(fuyrs, status) ~ 
+##     age, data = list(hvd, hvd), timeVar = &quot;time&quot;)
+## 
+## Data Descriptives:
+## 
+## Event Process
+##     Number of subjects: 221 
+##     Number of events: 47 (21.3%)
+## 
+## Longitudinal Process
+##     Number of longitudinal outcomes: K = 2 
+##     Number of observations:
+##       Outcome 1 (grad): n = 629
+##       Outcome 2 (lvmi): n = 629
+## 
+## Joint Model Summary:
+## 
+## Longitudinal Process: Multivariate linear mixed-effects model
+##      log.grad ~ time + sex + hs, random = ~1 | num
+##      log.lvmi ~ time + sex, random = ~time | num
+## Event Process: Cox proportional hazards model
+##      Surv(fuyrs, status) ~ age
+## Model fit statistics:
+##    log.Lik      AIC      BIC
+##  -991.1275 2018.255 2079.422
+## 
+## Variance Components:
+## 
+## Random effects variance covariance matrix
+##               (Intercept)_1 (Intercept)_2     time_2
+## (Intercept)_1     0.1056400     0.0190870  0.0037087
+## (Intercept)_2     0.0190870     0.1189100 -0.0062859
+## time_2            0.0037087    -0.0062859  0.0024650
+##   Standard Deviations: 0.32502 0.34484 0.049649 
+## 
+## Residual standard errors:
+##  sigma2_1  sigma2_2 
+## 0.5962153 0.1926125 
+## 
+## Coefficient Estimates:
+## 
+## Longitudinal sub-model:
+##                       Value Std.Err  z-value p-value
+## (Intercept)_1        2.5082  0.0642  39.0447 &lt;0.0001
+## time_1              -0.0044  0.0134  -0.3299  0.7415
+## sex_1                0.1438  0.0769   1.8693  0.0616
+## hsStentless valve_1  0.1883  0.0744   2.5319  0.0113
+## (Intercept)_2        5.0895  0.0338 150.4384 &lt;0.0001
+## time_2              -0.0098  0.0068  -1.4390  0.1501
+## sex_2               -0.1992  0.0550  -3.6228  0.0003
+## 
+## Time-to-event sub-model:
+##          Value Std.Err z-value p-value
+## age     0.1088  0.0160  6.7961 &lt;0.0001
+## gamma_1 1.5037  0.9032  1.6648  0.0959
+## gamma_2 0.7982  0.6464  1.2349  0.2169
+## 
+## Algorithm Summary:
+##     EM algorithm computational time: 40.5 secs 
+##     Convergence status: converged
+##     Convergence criterion: sas 
+##     Final Monte Carlo sample size: 3122 
+##     Standard errors calculated using method: approx</code></pre>
+<p>One can also extract the coefficients, fixed effects, and random effects using standard generic functions:</p>
+<pre class="r"><code>coef(fit)
+## $D
+##               (Intercept)_1 (Intercept)_2       time_2
+## (Intercept)_1   0.105639552   0.019086970  0.003708682
+## (Intercept)_2   0.019086970   0.118912598 -0.006285853
+## time_2          0.003708682  -0.006285853  0.002465011
+## 
+## $beta
+##       (Intercept)_1              time_1               sex_1 
+##         2.508185353        -0.004409933         0.143812047 
+## hsStentless valve_1       (Intercept)_2              time_2 
+##         0.188281478         5.089519841        -0.009792227 
+##               sex_2 
+##        -0.199191133 
+## 
+## $sigma2
+##   sigma2_1   sigma2_2 
+## 0.35547268 0.03709956 
+## 
+## $haz
+##  [1] 0.001870309 0.001877913 0.002021459 0.002229120 0.002264267
+##  [6] 0.002340948 0.002397806 0.002401283 0.002438790 0.002454874
+## [11] 0.002469187 0.002679255 0.002734533 0.002793430 0.002813763
+## [16] 0.002848816 0.002899155 0.003034978 0.003167093 0.003374304
+## [21] 0.003658375 0.007662982 0.004258645 0.004477425 0.004581532
+## [26] 0.004773790 0.005186524 0.005315634 0.006235573 0.006769618
+## [31] 0.006938246 0.007149842 0.007263083 0.007858815 0.008529241
+## [36] 0.008891707 0.009245827 0.010046153 0.011935513 0.012311538
+## [41] 0.013650072 0.016515164 0.017034515 0.046490600 0.048639295
+## [46] 0.247497975
+## 
+## $gamma
+##       age   gamma_1   gamma_2 
+## 0.1088081 1.5036984 0.7982243
+fixef(fit, process = &quot;Longitudinal&quot;)
+##       (Intercept)_1              time_1               sex_1 
+##         2.508185353        -0.004409933         0.143812047 
+## hsStentless valve_1       (Intercept)_2              time_2 
+##         0.188281478         5.089519841        -0.009792227 
+##               sex_2 
+##        -0.199191133
+fixef(fit, process = &quot;Event&quot;)
+##       age   gamma_1   gamma_2 
+## 0.1088081 1.5036984 0.7982243
+head(ranef(fit))
+##   (Intercept)_1 (Intercept)_2      time_2
+## 1   -0.20278045  -0.244812178 0.010415077
+## 2   -0.04343910  -0.176953314 0.001840393
+## 3   -0.01719138   0.006568905 0.010527853
+## 4   -0.42634195  -0.596150071 0.012342804
+## 5   -0.05144389   0.078210355 0.021558164
+## 6    0.23251670   0.229308158 0.005302997</code></pre>
+<p>Although a model fit may indicate convergence, it is generally a good idea to examine the convergence plots. These can be viewed using the <code>plot</code> function for each group of model parameters.</p>
+<pre class="r"><code>plot(fit, params = &quot;gamma&quot;)</code></pre>
+<p><img src="figures/hvd_model_conv-1.png" width="696" /></p>
+<pre class="r"><code>plot(fit, params = &quot;beta&quot;)</code></pre>
+<p><img src="figures/hvd_model_conv-2.png" width="696" /></p>
+</div>
+<div id="bootstrap-standard-errors" class="section level2">
+<h2>Bootstrap standard errors</h2>
+<p>Once an <code>mjoint</code> model has converged, and assuming the <code>se.approx</code> argument is <code>TRUE</code> (default), then approximated standard errors are calculated based on the empirical information matrix of the profile likelihood at the maximizer. Theoretically, these standard errors will be underestimated (see the technical vignette). In principle, residual Monte Carlo error will oppose this through an increase in uncertainty.</p>
+<pre class="r"><code>fit.se &lt;- bootSE(fit, nboot = 100)</code></pre>
+<p>Bootstrapping is a computationally intensive method, possibly taking many hours to fit. For this reason, the <code>bootSE</code> function makes use of the <code>use.mle</code> argument, which automatically initializes each model fit to the maximizer of the fitted model, <code>fit</code>. Also, one might relax the control parameter constraints on the optimization algorithm for each bootstrap model; however, this will be at the expense of inflated standard errors due to Monte Carlo error.</p>
+<p>Once we run <code>bootSE</code>, we can call the object to interrogate it</p>
+<pre class="r"><code>fit.se</code></pre>
+<p>or alternatively re-run the <code>summary</code> command, passing the additional argument of <code>bootSE = fit.se</code></p>
+<pre class="r"><code>summary(fit, bootSE = fit.se)</code></pre>
+</div>
+</div>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'graemeleehickey';
+    var disqus_identifier = 'http:\/\/www.glhickey.com\/post\/2017-02-17-using-joinerml\/';
+    var disqus_title = 'Using joineRML v0.1.1';
+    var disqus_url = 'http:\/\/www.glhickey.com\/post\/2017-02-17-using-joinerml\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Graeme L. Hickey &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-93145806-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+

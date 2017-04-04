@@ -1,0 +1,130 @@
+---
+title: "Using joineRML v0.1.1"
+author: "Graeme L. Hickey"
+date: 2017-02-17T00:00:00
+categories: ["R"]
+tags: ["R", "joineRML", "joint modelling"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(Matrix)
+library(nlme)
+library(survival)
+library(joineRML)
+```
+
+The `joineRML` package implements methods for analyzing data from *multiple* longitudinal studies in which the responses from each subject consists of time-sequences of repeated measurements and a possibly censored time-to-event outcome. The modelling framework for the repeated measurements is the multivariate linear mixed effects model. The model for the time-to-event outcome is a Cox proportional hazards model with log-Gaussian frailty. Stochastic dependence is captured by allowing the Gaussian random effects of the linear model to be correlated with the frailty term of the Cox proportional hazards model. For full details of the model, please consult the technical vignette by running
+
+```{r vignette, eval=FALSE}
+vignette("technical", package = "joineRML")
+```
+
+# Heart valve data
+
+## Data
+
+The simplest way to explain the concepts of the package is through an example. `joineRML` comes with the data set `heart.valve`. Details of this data can be found in the help file by running the command
+
+```{r heart.valve_help, eval=FALSE}
+help("heart.valve", package = "joineRML")
+```
+
+This data is in so-called *long* or *unbalanced* format:
+
+```{r heart.valve_data}
+library("joineRML")
+data("heart.valve")
+head(heart.valve)
+```
+
+The data refer to `r length(unique(heart.valve$num))` patients and are stored in the unbalanced format, which is convenient here because measurement times were unique to each subject. The data are stored as a single R object, `heart.valve`, which is a data frame of dimension `r nrow(heart.valve)` by `r ncol(heart.valve)`. The average number of repeated measurements per subject is therefore `r nrow(heart.valve)`/`r length(unique(heart.valve$num))` = `r round(nrow(heart.valve) / length(unique(heart.valve$num)), 2)`. As with any unbalanced data set, values of time-constant variables are repeated over all rows that refer to the same subject. The dimensionality of the data set can be confirmed by a call to the `dim()` function, whilst the names of the 25 variables can be listed by a call to the `names()` function:
+
+```{r heart.valve_dimnames}
+dim(heart.valve)
+names(heart.valve)
+```
+
+We will only analyse a subset of this data, namely records with case-complete data for heart valve gradient (`grad`) and left ventricular mass index (`lvmi`):
+
+```{r hvd_data}
+hvd <- heart.valve[!is.na(heart.valve$grad) & !is.na(heart.valve$lvmi), ]
+```
+
+## Model fitting
+
+The main function in the `joineRML` package is the `mjoint()` function. Its main (required) arguments are:
+
+* `formLongFixed`: a list (of length equal to the number of longitudinal outcome types considered) of two-sided formulae specifying the response on the left-hand side and the mean linear predictor terms for the fixed effects in the linear mixed models on the right-hand side.
+
+* `formLongRandom`: a list (of same length as `formLongFixed`) of one-sided formulae specifying the model for random effects in the linear mixed models.
+
+* `formSurv`: a formula specifying the proportional hazards regression model for the time-to-event outcome in the same structure as for `survival::coxph`.
+
+* `data`: a list (of same length as `formLongFixed`) of data.frames; one for each longitudinal outcome. It is assumed that the event time data is in the first data.frame (i.e. `data[[1]]`), unless the argument `survData` (which defaults to `NULL`) is specified. If $K>1$ and the data are balanced within patients (i.e. multiple markers measured at common measurement times), then one can specify `data` as a data frame rather than as a list.
+
+* `timeVar`: the column name indicating the time variable in the linear mixed effects model. If $K>1$ and the data frames have different column names for time, then `timeVar` can alternatively be specified as a vector of strings of length $K$.
+
+We can fit a bivariate joint model to the log-transformed valve gradient and LVMI indices in the `hvd` subset using
+
+```{r hvd_model_fit, cache=TRUE}
+set.seed(12345)
+fit <- mjoint(
+  formLongFixed = list("grad" = log.grad ~ time + sex + hs, 
+                       "lvmi" = log.lvmi ~ time + sex),
+  formLongRandom = list("grad" = ~ 1 | num,
+                        "lvmi" = ~ time | num),
+  formSurv = Surv(fuyrs, status) ~ age,
+  data = list(hvd, hvd),
+  timeVar = "time")
+```
+
+Details on the model estimation algorithm are provided in the technical details vignette. We note here that this is not necessarily the most appropriate model for the data, and is included only for the purposes of demonstration. There are a number of other useful arguments in the `mjoint` function; for example, `inits` for specifying (partial) initial values, `control` for controlling the optimization algorithm, and `verbose` for monitoring the convergence output in real-time. A full list of all arguments with explanation are given in the help documentation, accessed by running `help("mjoint")`.
+
+## Post-fit analysis
+
+Once we have a fitted `mjoint` object, we can begin to extract relevant information from it. Most summary statistics are available from the `summary` function:
+
+```{r hvd_model_summary}
+summary(fit)
+```
+
+One can also extract the coefficients, fixed effects, and random effects using standard generic functions:
+
+```{r hvd_model_generics}
+coef(fit)
+fixef(fit, process = "Longitudinal")
+fixef(fit, process = "Event")
+head(ranef(fit))
+```
+
+Although a model fit may indicate convergence, it is generally a good idea to examine the convergence plots. These can be viewed using the `plot` function for each group of model parameters.
+
+```{r hvd_model_conv, fig.height=8, fig.width=7.25}
+plot(fit, params = "gamma")
+plot(fit, params = "beta")
+```
+
+## Bootstrap standard errors
+
+Once an `mjoint` model has converged, and assuming the `se.approx` argument is `TRUE` (default), then approximated standard errors are calculated based on the empirical information matrix of the profile likelihood at the maximizer. Theoretically, these standard errors will be underestimated (see the technical vignette). In principle, residual Monte Carlo error will oppose this through an increase in uncertainty.
+
+```{r hvd_model_boot, eval=FALSE}
+fit.se <- bootSE(fit, nboot = 100)
+```
+
+Bootstrapping is a computationally intensive method, possibly taking many hours to fit. For this reason, the `bootSE` function makes use of the `use.mle` argument, which automatically initializes each model fit to the maximizer of the fitted model, `fit`. Also, one might relax the control parameter constraints on the optimization algorithm for each bootstrap model; however, this will be at the expense of inflated standard errors due to Monte Carlo error.
+
+Once we run `bootSE`, we can call the object to interrogate it
+
+```{r hvd_model_boot_print, eval=FALSE}
+fit.se
+```
+
+or alternatively re-run the `summary` command, passing the additional argument of `bootSE = fit.se`
+
+```{r hvd_model_boot_summary, eval=FALSE}
+summary(fit, bootSE = fit.se)
+```
+
+

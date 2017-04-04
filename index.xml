@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mindy L. Mallory on Mindy L. Mallory</title>
+    <link>/index.xml</link>
+    <description>Recent content in Mindy L. Mallory on Mindy L. Mallory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Mindy L. Mallory</copyright>
+    <lastBuildDate>Thu, 16 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Demonstrating Leverage in Options Markets</title>
+      <link>/project/shiny-options/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny-options/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Price Analysis: A Fundamental Approach to the Study of Commodity Prices</title>
+      <link>/project/price-analysis/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/price-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating the cost of pre-harvest forward contracting corn and soybeans in Illinois before and after 2007</title>
+      <link>/publication/2017-agribusiness-costfc/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-agribusiness-costfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-resolution conservation planning with limited climate-change information</title>
+      <link>/publication/2016-ConservationBiology-ConsPlanning/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-ConservationBiology-ConsPlanning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Components of the Bid-ask Spread: Evidence from the Corn Futures Market</title>
+      <link>/talk/msu2016/</link>
+      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/msu2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Price Density Forecasts in the U.S. Hog Markets: Composite Procedures</title>
+      <link>/publication/2016-AJAE-DensCombForecast/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-AJAE-DensCombForecast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An optimal hybrid emission control system in a multiple compliance period model</title>
+      <link>/publication/2015-REE/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-REE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exchange rate effect on carbon credit price via energy markets</title>
+      <link>/publication/2014-JIMF/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-JIMF/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
