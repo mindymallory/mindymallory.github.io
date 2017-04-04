@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Mindy L. Mallory</title>
+    <link>/tags/books/index.xml</link>
+    <description>Recent content in Books on Mindy L. Mallory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Mindy L. Mallory</copyright>
+    <atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Price Analysis: A Fundamental Approach to the Study of Commodity Prices</title>
+      <link>/project/price-analysis/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/price-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
