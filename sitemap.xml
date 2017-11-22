@@ -68,8 +68,16 @@
     
     
     <url>
-      <loc>/talk/msu2016/</loc>
+      <loc>/talk/2016-msu-seminar/</loc>
       <lastmod>2016-09-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>/talk/2016-7minutes/</loc>
+      <lastmod>2016-09-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -78,6 +86,14 @@
     <url>
       <loc>/publication/2016-AJAE-DensCombForecast/</loc>
       <lastmod>2016-08-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>/talk/2016-IPAM/</loc>
+      <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -116,8 +132,32 @@
     
     
     <url>
+      <loc>/publication/2012-JARE-VolSpillover/</loc>
+      <lastmod>2012-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>/publication/2012-EE-MEStorage/</loc>
+      <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>/publication/2012-pnas/</loc>
       <lastmod>2012-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>/publication/2012-LE-CropBasedBio/</loc>
+      <lastmod>2011-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
