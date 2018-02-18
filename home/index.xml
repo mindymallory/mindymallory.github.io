@@ -2,13 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Mindy L. Mallory</title>
-    <link>/home/index.xml</link>
+    <link>mindymallory.github.io/home/</link>
     <description>Recent content in Homes on Mindy L. Mallory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Mindy L. Mallory</copyright>
     <lastBuildDate>Thu, 16 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="mindymallory.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>mindymallory.github.io/home/about/</link>
+      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/about/</guid>
+      <description>Biography Mindy L. Mallory is an associate professor in the Department of Agricultural and Consumer Economics at the University of Illinois.
+Dr. Mallory&amp;rsquo;s research focuses on commodity markets and marketing issues, especially related to commodity futures and options markets. Topics of special interest include forecasting, liquidity costs, and price discovery. Additionally, NSF-funded research examines how portfolio theory from finance can be applied to help conservation groups make informed resource allocation decisions in the face of climate change.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>mindymallory.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>mindymallory.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>mindymallory.github.io/home/posts/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>mindymallory.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>mindymallory.github.io/home/teaching/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/teaching/</guid>
+      <description>Microeconmic Analysis (ACE 500): This is standard first-year master&amp;rsquo;s theory class. It has a heavy emphasis on core neoclassical economic theory, with some modern extensions.
+Commodity Price Analysis (ACE 427): Students learn what drives prices in commodity markets. First we cover fundamental supply and demand characteristics of key commodity markets like corn, soybeans, and wheat, livestock and energy. Considerable time is spent introducing the student to important sources of information (from the United States Department of Agriculture, e.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>mindymallory.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>mindymallory.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

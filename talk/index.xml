@@ -2,38 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Mindy L. Mallory</title>
-    <link>/talk/index.xml</link>
+    <link>mindymallory.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Mindy L. Mallory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Mindy L. Mallory</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="mindymallory.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Components of the Bid-ask Spread: Evidence from the Corn Futures Market</title>
-      <link>/talk/2016-msu-seminar/</link>
+      <link>mindymallory.github.io/talk/2016-msu-seminar/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2016-msu-seminar/</guid>
+      <guid>mindymallory.github.io/talk/2016-msu-seminar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seven Mintutes About Me</title>
-      <link>/talk/2016-7minutes/</link>
+      <link>mindymallory.github.io/talk/2016-7minutes/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2016-7minutes/</guid>
+      <guid>mindymallory.github.io/talk/2016-7minutes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exchange Rate Effect on Carbon Credit Price Via Energy Markets</title>
-      <link>/talk/2016-IPAM/</link>
+      <link>mindymallory.github.io/talk/2016-ipam/</link>
       <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2016-IPAM/</guid>
+      <guid>mindymallory.github.io/talk/2016-ipam/</guid>
       <description></description>
     </item>
     
