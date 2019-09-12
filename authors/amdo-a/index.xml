@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amdo, A | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/authors/amdo-a/</link>
+      <atom:link href="http://mindymallory.com/authors/amdo-a/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amdo, A</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Thu, 23 Feb 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Amdo, A</title>
+      <link>http://mindymallory.com/authors/amdo-a/</link>
+    </image>
+    
+    <item>
+      <title>Optimal portfolio design to reduce climate-related conservation uncertainty in the Prairie Pothole Region</title>
+      <link>http://mindymallory.com/publication/journal-article/2012-pnas/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2012-pnas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

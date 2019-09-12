@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yu J | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/authors/yu-j/</link>
+      <atom:link href="http://mindymallory.com/authors/yu-j/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yu J</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Sat, 01 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Yu J</title>
+      <link>http://mindymallory.com/authors/yu-j/</link>
+    </image>
+    
+    <item>
+      <title>An optimal hybrid emission control system in a multiple compliance period model</title>
+      <link>http://mindymallory.com/publication/journal-article/2015-ree/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2015-ree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exchange rate effect on carbon credit price via energy markets</title>
+      <link>http://mindymallory.com/publication/journal-article/2014-jimf/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2014-jimf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Babcock B | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/authors/babcock-b/</link>
+      <atom:link href="http://mindymallory.com/authors/babcock-b/index.xml" rel="self" type="application/rss+xml" />
+    <description>Babcock B</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Tue, 01 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Babcock B</title>
+      <link>http://mindymallory.com/authors/babcock-b/</link>
+    </image>
+    
+    <item>
+      <title>Crop-Based Biofuel Production with Acreage Competition and Uncertainty</title>
+      <link>http://mindymallory.com/publication/journal-article/2012-le-cropbasedbio/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2012-le-cropbasedbio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

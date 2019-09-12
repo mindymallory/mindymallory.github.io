@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Irwin S | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/authors/irwin-s/</link>
+      <atom:link href="http://mindymallory.com/authors/irwin-s/index.xml" rel="self" type="application/rss+xml" />
+    <description>Irwin S</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Tue, 03 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Irwin S</title>
+      <link>http://mindymallory.com/authors/irwin-s/</link>
+    </image>
+    
+    <item>
+      <title>The Cost of Post-Harvest Forward Contracting in Corn and Soybeans</title>
+      <link>http://mindymallory.com/publication/journal-article/2015-agribusiness/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2015-agribusiness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How market efficiency and the theory of storage link corn and ethanol markets</title>
+      <link>http://mindymallory.com/publication/journal-article/2012-ee-mestorage/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2012-ee-mestorage/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

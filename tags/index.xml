@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Mindy L. Mallory</title>
-    <link>mindymallory.github.io/tags/</link>
-    <description>Recent content in Tags on Mindy L. Mallory</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Mindy L. Mallory</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="mindymallory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>mindymallory.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>mindymallory.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
+    <title>Tags | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/tags/</link>
+      <atom:link href="http://mindymallory.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Tags</title>
+      <link>http://mindymallory.com/tags/</link>
+    </image>
     
     <item>
-      <title>Books</title>
-      <link>mindymallory.github.io/tags/books/</link>
-      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>mindymallory.github.io/tags/books/</guid>
+      <title>Source Themes</title>
+      <link>http://mindymallory.com/tags/source-themes/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>mindymallory.github.io/tags/r/</link>
+      <link>http://mindymallory.com/tags/r/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>mindymallory.github.io/tags/r/</guid>
+      <guid>http://mindymallory.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>http://mindymallory.com/tags/book/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>http://mindymallory.com/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/tags/academic/</guid>
       <description></description>
     </item>
     

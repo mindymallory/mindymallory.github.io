@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shah P | Mindy L. Mallory</title>
+    <link>http://mindymallory.com/authors/shah-p/</link>
+      <atom:link href="http://mindymallory.com/authors/shah-p/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shah P</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Mindy L. Mallory</copyright><lastBuildDate>Mon, 14 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://mindymallory.com/img/mallory-headshot.jpg</url>
+      <title>Shah P</title>
+      <link>http://mindymallory.com/authors/shah-p/</link>
+    </image>
+    
+    <item>
+      <title>Fine-resolution conservation planning with limited climate-change information</title>
+      <link>http://mindymallory.com/publication/journal-article/2016-conservationbiology-consplanning/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://mindymallory.com/publication/journal-article/2016-conservationbiology-consplanning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
