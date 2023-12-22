@@ -1,4 +1,5 @@
+/.quarto/
+*.RData
+*.rdb
+*.rdx
 .Rproj.user
-.Rhistory
-.RData
-.Ruserdata
